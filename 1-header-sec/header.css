@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "rubik", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+  overflow-x: hidden;
+}
+
+.logo {
+  height: 2.2rem;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4.2rem;
+  height: 9.6rem;
+  background-color: #fdf2e9;
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+.nav-cta:link,
+.nav-cta:visited {
+  color: #fff;
+  background-color: #e67e22;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+}
+.nav-cta:hover,
+.nav-cta:active {
+  background-color: #cf711f;
+}
